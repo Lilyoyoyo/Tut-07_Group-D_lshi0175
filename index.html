@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Artwork</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <div class="controls">
+        <label for="color">Change Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
+        <button onclick="changeColor()">Apply Color</button>
+        <br>
+        <label for="lineWeight">Line Weight:</label>
+        <input type="number" id="lineWeight" value="1" min="1" max="10">
+        <button onclick="changeLineWeight()">Apply Weight</button>
+        <br>
+        <label for="numLines">Number of Lines:</label>
+        <input type="number" id="numLines" value="20" min="1" max="100">
+        <button onclick="changeNumLines()">Apply Number</button>
+        <br>
+        <label for="lineAngle">Line Angle (Degrees):</label>
+        <input type="number" id="lineAngle" value="-33" min="-360" max="360">
+        <button onclick="changeLineAngle()">Apply Angle</button>
+        <br>
+        <label for="animate">Animate Lines:</label>
+        <button onclick="toggleAnimation()">Start/Stop Animation</button>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
