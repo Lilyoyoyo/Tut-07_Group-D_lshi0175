@@ -22,6 +22,6 @@ The code includes functions to handle user inputs from HTML elements:
 - `mouseMoved()`, `mouseDragged()`: Change line colors and positions based on mouse interactions.
 - `keyPressed()`: Adjust line lengths using keyboard inputs.
 
-## References to External Tools or Code Used
-- **p5.js**: The primary library used for rendering the artwork and handling animations.
-- **MDN Web Docs**: Used for reference on handling HTML inputs and JavaScript functions.
+## Differences
+My task is different from the group task in that it includes a typed input, which my group did not incorporate into their respective picture. This approach also sets aside my work from other group members tasks where some of the participants may have employed audio or time-based animations.
+
